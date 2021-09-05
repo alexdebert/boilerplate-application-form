@@ -1,6 +1,6 @@
 import React from 'react';
-import { Button } from '@/ui';
+import MultiStepForm from '@/ui/components/multiStepForm';
 
 export default function IndexPage(): JSX.Element {
-  return <Button>Click me</Button>;
+  return <MultiStepForm />;
 }
